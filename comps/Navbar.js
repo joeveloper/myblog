@@ -6,11 +6,11 @@ const Navbar = () => {
     return ( 
         <nav>
             <div className="logo">
-                <Link href={"/"}>PeopleList</Link>
+                <Link href={"/"}>EBiF</Link>
             </div>
-            <Link href="/">Home</Link>   
-            <Link href="/about">About</Link>    
-            <Link href="/people">People listing</Link>
+            <Link href="/">Home</Link>      
+            <Link href="/people">Blog</Link>
+            <Link href="/about">Donate</Link> 
         </nav>
      );
 }
