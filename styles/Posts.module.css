@@ -1,0 +1,22 @@
+.single {
+    padding: 10px 10px;
+    background: #fff;
+    display: block;
+    margin: 5px 5px;
+    /* border-left: 2px solid #000; */
+    width: auto;
+    height: auto;
+    text-align: justify;
+  }
+  .single:hover {
+    border-left: 1px solid #4979ff;
+    background-color: #67d7cc;
+    transition: 0.3s;
+    
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  

@@ -8,9 +8,11 @@ const Navbar = () => {
             <div className="logo">
                 <Link href={"/"}>EBiF</Link>
             </div>
+            <div style={{paddingRight: "10px"}}>
             <Link href="/">Home</Link>      
-            <Link href="/people">Blog</Link>
-            <Link href="/about">Donate</Link> 
+            <Link href="/posts">Blog</Link>
+            <Link href="/donate">Donate</Link>
+            </div>
         </nav>
      );
 }
